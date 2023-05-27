@@ -27,10 +27,37 @@ $secondary: #a0f669;
     transition:         all $transition ease;
 }
 
+// #header{
+// 	background-image: url(images/jiteshhhhhh.png);
+// }
 
-html {
-	// overflow-x: hidden;
-}
+// .scroll-container,
+// .scroll-area{
+// 	max-width: 850px;
+// 	font-size: 60px;
+// 	height: 600px;
+// }
+
+// .scroll-container {
+// 	overflow: auto;
+// 	scroll-snap-type: y;
+// }
+
+// .scroll-area {
+
+// }
+// .scroll-container,
+// .scroll-area {
+// 	margin: 0 auto;
+// }
+
+// .scroll-area {
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: center;
+// 	color: white;
+// }
+
 body {
 	font-family: $font-primary;
 	background: $white;
@@ -332,7 +359,7 @@ h1, h2, h3, h4, h5,
 
 .hero{
 	h3.vr{
-		writing-mode: vertical-lr;
+	  writing-mode: vertical-lr;
 	  transform: rotate(180deg);
 	  text-orientation: sideways;
 	  text-align:center;
